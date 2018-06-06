@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "첫 번째 블로그 글.."
+title: "Sublime text3 플러그인 설치 방법"
 tags: [vue, sublime plugin, vue 플러그인]
 comments: true
 ---
