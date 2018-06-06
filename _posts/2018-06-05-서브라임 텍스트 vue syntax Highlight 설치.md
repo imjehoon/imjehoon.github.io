@@ -5,8 +5,6 @@ tags: [vue, sublime plugin, vue 플러그인]
 comments: true
 ---
 
-# Sublime text3 플러그인 설치 방법
-
 맥북의 경우 커맨드+시프트+p 누른후 install 이라고 입력하면 아래 그림과 같이 뜬다.
 
 ![install]({{ site.baseurl }}/images/install.png)
