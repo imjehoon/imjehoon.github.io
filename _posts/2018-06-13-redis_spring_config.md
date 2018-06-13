@@ -86,7 +86,7 @@ public class RedisConfig {
 
 ```
 
-3. 이제 dao에서 RedisTemplate 를 사용하여 테스트 로그를 입력해본다.
+3.이제 dao에서 RedisTemplate 를 사용하여 테스트 로그를 입력해본다.
 ```java
  @Autowired
  private RedisTemplate<String,String> template;
