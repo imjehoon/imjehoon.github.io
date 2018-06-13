@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Spring Boot Redis 원격 접속 설정"
+title: "Redis설치 및 SpringBoot로 Redis 서버 접속 설정"
 tags: [Spring, Redis]
 comments: true
 ---
