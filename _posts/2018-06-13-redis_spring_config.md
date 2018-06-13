@@ -32,7 +32,7 @@ bind 127.0.0.1 -- 이 부분은 주석처리해준다.
 
 이제 redis 서버 설정이 완료 되었으니, 스프링으로 로컬에서 접속 테스트를 해보자.
 
-1.spring redis 사용을 위해 pom.xml에 추가 해준다.
+spring redis 사용을 위해 pom.xml에 추가 해준다.
 ```xml
 <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -40,7 +40,7 @@ bind 127.0.0.1 -- 이 부분은 주석처리해준다.
 </dependency>
 ```
 
-2.redisConfig 파일을 생성하여 bean을 주입한다
+redisConfig 파일을 생성하여 bean을 주입한다
 ```java
 @Configuration
 @ComponentScan(basePackages= {"kr.co.coinshop.controller"})
@@ -86,7 +86,7 @@ public class RedisConfig {
 
 ```
 
-3.이제 dao에서 RedisTemplate 를 사용하여 테스트 로그를 입력해본다.
+이제 dao에서 RedisTemplate 를 사용하여 테스트 로그를 입력해본다.
 ```java
  @Autowired
  private RedisTemplate<String,String> template;
