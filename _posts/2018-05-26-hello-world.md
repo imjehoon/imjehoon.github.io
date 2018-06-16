@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "첫 번째 블로그 글.."
-tags: [test, style]
+tags: []
 comments: true
 ---
 

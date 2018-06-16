@@ -4,12 +4,8 @@ title: About
 permalink: /about/
 ---
 
-Some information about you!
-
-### More Information
-
-A place to include any other types of information that you'd like to include about yourself.
+개발을 좋아하고 삶의 원동력이고 싶은 개발자....
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+[imjehoon@naver.com](mailto:imjehoon@naver.com)
