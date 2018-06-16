@@ -2,6 +2,7 @@
 layout: post
 title: "Sublime text3 플러그인 설치 방법"
 tags: [vue, sublime plugin, vue 플러그인]
+category: [tool]
 comments: true
 ---
 

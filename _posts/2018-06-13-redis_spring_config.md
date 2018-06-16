@@ -2,6 +2,7 @@
 layout: post
 title: "Redis설치 및 SpringBoot로 Redis 서버 접속 설정"
 tags: [Spring, Redis]
+category: [Spring]
 comments: true
 ---
 
