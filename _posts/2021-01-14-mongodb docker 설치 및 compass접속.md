@@ -27,7 +27,7 @@ admin     0.000GB
 config    0.000GB
 local     0.000GB
 test      0.000GB
-tutorial  0.000GB <- 
+tutorial  0.000GB 
 > db.users.find()
 { "_id" : ObjectId("600055da02bb38a493b4f8d5"), "username" : "smith" }
 
