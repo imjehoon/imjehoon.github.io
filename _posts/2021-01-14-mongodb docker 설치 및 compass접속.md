@@ -1,8 +1,10 @@
+---
 layout: post
 title: "mongo docker 설치 및 mongo compass 접속"
 tags: [mongo, mongodb, mac]
 category: [db]
 comments: true
+---
 
 # 몽고디비 docker 실행 방법
 1. docker run 실행
