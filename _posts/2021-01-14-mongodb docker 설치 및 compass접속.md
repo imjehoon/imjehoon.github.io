@@ -17,7 +17,7 @@ docker exec -it mongo-db-t3 /bin/bash
 -- 접속 후 
 root@ac523620dea1: mongo
 
-## tutorial db를 만들고 사용해보자.
+tutorial db를 만들고 사용해보자.
 > use tutorial
 switched to db tutorial
 > db.users.insert({username: "smith"})
