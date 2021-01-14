@@ -16,6 +16,21 @@ docker run -d --name mongo-db -v /Users/user/mongo/db:/data/db -p 27017:27017 mo
 docker exec -it mongo-db-t3 /bin/bash
 -- 접속 후 
 root@ac523620dea1: mongo
+
+## tutorial db를 만들고 사용해보자.
+> use tutorial
+switched to db tutorial
+> db.users.insert({username: "smith"})
+WriteResult({ "nInserted" : 1 })
+> show dbs
+admin     0.000GB
+config    0.000GB
+local     0.000GB
+test      0.000GB
+tutorial  0.000GB <- 
+> db.users.find()
+{ "_id" : ObjectId("600055da02bb38a493b4f8d5"), "username" : "smith" }
+
 ```
 
 3. compass 다운로드
